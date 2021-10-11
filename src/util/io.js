@@ -24,5 +24,5 @@ export const uploadImage = async (data, mimetype) => {
   return response.data.imageURL
 }
 
-export const API_URL = process.env.NODE_ENV === 'production' ? 'https://witeboard-prod.appspot.com' : 'http://localhost:3000'
+export const API_URL = process.env.NODE_ENV === 'production' ? 'https://pkboard.vercel.app' : 'http://localhost:3000'
 // export const API_URL = 'https://witeboard-prod.appspot.com'

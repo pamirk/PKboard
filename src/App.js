@@ -12,6 +12,7 @@ import './styles/reset.css'
 import './styles/drawing-board.scss'
 import './styles/ui-components.css'
 function App() {
+    console.log('process.env.NODE_ENV',process.env.NODE_ENV)
     return (
         <I18nextProvider i18n={i18n}>
             <Router history={createBrowserHistory()}>
