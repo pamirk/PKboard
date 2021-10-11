@@ -1,6 +1,6 @@
 import './runtimeConfig'
 import React from 'react'
-import {Redirect, Route, Router, Switch} from 'react-router'
+import {Redirect, Route, BrowserRouter as Router, Switch} from 'react-router-dom'
 import {createBrowserHistory} from 'history'
 import {v1} from 'uuid'
 import {I18nextProvider} from 'react-i18next'
@@ -8,7 +8,9 @@ import DrawingBoard from './components/DrawingBoard'
 import ResetPassword from './components/Accounts/reset_password'
 import EmbedTest from './components/EmbedTest'
 import i18n from './i18n'
-
+import './styles/reset.css'
+import './styles/drawing-board.scss'
+import './styles/ui-components.css'
 function App() {
     return (
         <I18nextProvider i18n={i18n}>

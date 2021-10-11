@@ -39,10 +39,7 @@ import {isMobile} from '../util/browser'
 import mixpanel from '../lib/mixpanel'
 import {translate} from 'react-i18next';
 import {toRelative, X_MAX, Y_MAX} from '../util/relative-points'
-// CSS
-require('../styles/reset.css')
-require('../styles/drawing-board.scss')
-require('../styles/ui-components.css')
+
 let values = require('object.values')
 
 export const HOTKEYS = [32]
