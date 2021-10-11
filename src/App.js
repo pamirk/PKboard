@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import './runtimeConfig'
+import React from 'react'
+import {Redirect, Route, Router, Switch} from 'react-router'
+import {createBrowserHistory} from 'history'
+import {v1} from 'uuid'
+import {I18nextProvider} from 'react-i18next'
+import DrawingBoard from './components/DrawingBoard'
+import ResetPassword from './components/Accounts/reset_password'
+import EmbedTest from './components/EmbedTest'
+import i18n from './i18n'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <I18nextProvider i18n={i18n}>
+            <Router history={createBrowserHistory()}>
+                <Switch>
+                    <Redirect exact replace from="/" to={`/${v1()}${window.location.search}`}/>
+                    <Route exact path="/reset-password/:uuid" component={ResetPassword}/>
+                    <Route exact path="/embed/:customer/:room" component={DrawingBoard}/>
+                    <Route exact path="/embed/:room" component={DrawingBoard}/>
+                    <Route exact path="/embed-test/:room" component={EmbedTest}/>
+                    <Route path="/:room" component={DrawingBoard}/>
+                </Switch>
+            </Router>
+        </I18nextProvider>
+    )
 }
 
 export default App;

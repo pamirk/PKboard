@@ -1,0 +1,11 @@
+.text-input {
+    font-size: 24px;
+    padding: 2px;
+    position: relative;
+    left: -2px;
+    top: -1.05em;
+    outline: none !important;
+    border-bottom: 1px solid hsla(0, 0%, 100%, .01);
+    line-height: 1.23em;
+    display: block
+}
