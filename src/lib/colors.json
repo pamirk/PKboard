@@ -1,0 +1,34 @@
+[
+  {
+    "color": "#f35353",
+    "name": "Pomodoro"
+  },
+  {
+    "color": "#ff9b3c",
+    "name": "Tangerine"
+  },
+  {
+    "color": "#ffd335",
+    "name": "Sunshine"
+  },
+  {
+    "color": "#26c281",
+    "name": "Mint"
+  },
+  {
+    "color": "#2b90ef",
+    "name": "Glacier"
+  },
+  {
+    "color": "#6a46fa",
+    "name": "Blueberry"
+  },
+  {
+    "color": "#b05dd9",
+    "name": "Lavender"
+  },
+  {
+    "color": "#222222",
+    "name": "Onyx"
+  }
+]

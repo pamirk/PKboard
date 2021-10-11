@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>noun_2817</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="fullscreen" transform="translate(-10.000000, -10.000000)" fill="#010101" fill-rule="nonzero">
+            <g id="noun_2817" transform="translate(10.000000, 10.000000)">
+                <polygon id="Shape"
+                         points="68.5352 61.4648 57.0704 50 50 57.0704 61.4648 68.5352 50 80 80 80 80 50"></polygon>
+                <polygon id="Shape"
+                         points="30 57.0704 22.9296 50 11.4648 61.4648 0 50 0 80 30 80 18.5352 68.5352"></polygon>
+                <polygon id="Shape"
+                         points="30 0 0 0 0 30 11.4648 18.5352 22.8216 29.8832 29.892 22.8128 18.5352 11.4648"></polygon>
+                <polygon id="Shape"
+                         points="80 0 50 0 61.4648 11.4648 50.108 22.8128 57.1784 29.8832 68.5352 18.5352 80 30"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
